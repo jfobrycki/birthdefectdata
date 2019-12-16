@@ -63,7 +63,7 @@ After opening the table of contents in QGIS, there are several steps that should
 
 For this map, I selected the following options as shown in the SQL command I used.
 
-<img src="./images/SQL_Used.jpg">
+<img src="./images/SQL_Used.JPG">
 
 To apply this SQL, I first created a new virtual layer by navigating to Layer > Create Layer > New Virtual Layer in QGIS.
 
