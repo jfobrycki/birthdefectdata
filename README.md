@@ -71,7 +71,7 @@ The code selects five variables that will be carried into the new virtual layer.
 
 The result was a new virtual layer that looked like this.
 
-<img src="images/TableCheck.jpg">
+<img src="./images/TableCheck.JPG">
 
 In the image, row 236 is highlighted that shows the results for the United States. This cell indicates that between 2020 and 2025 (5 years), about 20,093,000 children will be born. The birth column results are in thousands as noted above. 
 
@@ -98,12 +98,12 @@ The end result of this process was the following:
 
 <b>Data note</b><br>
 When working with the edited UN dataset as a csv file, I rounded the number of births to the nearest whole number. Without rounding, QGIS did not seem to be reading the value correctly and I was not able to convert to a number. After rounded to the nearest whole number, the data column of births was read as a string and this could be converted to a number.
-<img src="images/ConversionStep.jpg">
+<img src="./images/ConversionStep.JPG">
 <br>
 
 Now that the three data files had similar naming systems, joins were used to add the UN birth data and the ICBDSR data to the Natural Earth shapefile.
 
-<img src="images/JoinExample.jpg">
+<img src="./images/JoinExample.JPG">
 
 ## Mapping
 
@@ -111,14 +111,14 @@ WIth all data joined together, two types of visualizations were conducted.
 
 The first created a chloropleth map of the total number of births by country. A graduated, single color ramp was selected because the values shown were a single variable that was increasing in magnitude. Four categories were selected to show contrasts among the countries but to avoid having too many shades of green on the map.
 
-<img src="images/SymbologyExample.jpg">
+<img src="./images/SymbologyExample.JPG">
 
 
-<img src="images/MapExample.jpg">
+<img src="./images/MapExample.JPG">
 
 The second visualization highlighted the countries where some form of birth defect surveillance was occurring. Rather than showing both pieces of information in one map, I chose to show the information in two maps. Data can be considered to be illuminating as it provides new information on a given topic. With incomplete data, an entire situation might be unable to be characterized. I selected this visual contrast through the two maps. A single map with country outlines showing which countries have birth defects surveillance is a possibility too.
 
-<img src="images/SurveillanceExample.jpg">
+<img src="./images/SurveillanceExample.JPG">
 
 For display, I selected the World Robinson projection, EPSG 54030 because it provided a globe-like feel to the map by having the edges be rounded. I found this projection listed <a href="https://futuremaps.com/blogs/news/top-10-world-map-projections" target="new"> on a page from the The Future Mapping Company</a>.
 
