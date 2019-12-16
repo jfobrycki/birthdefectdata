@@ -1,0 +1,46 @@
+Number,Country,State,Activity,Name,AdminCode
+1,Argentina,None,Surveillance,RENAC,ARG
+2,Australia,None,Surveillance,WARDA,AUS
+3,Canada,Alberta,Surveillance,ACASS,CAN
+4,Canada,None,Surveillance,CCASS,CAN
+5,Chile,,Surveillance,RRMC-SSM,CHL
+6,Colombia ,Bogotá,Surveillance,CMSP,COL
+7,Colombia,Cali,Surveillance,CBDSP,COL
+8,Costa Rica,,Surveillance,CREC,CRI
+9,Cuba,,Surveillance,RECUMAC,CUB
+10,Czech Republic,,Surveillance,,
+11,Finland,,Surveillance,,FIN
+12,France,,Surveillance,Brittany,FRA
+13,France,,Surveillance,REMERA,FRA
+14,France,,Surveillance,Paris,FRA
+15,Germany,,Surveillance,Sax-Anh,DEU
+16,Hungary,,Surveillance,,HUN
+17,India,,Surveillance,Chennai,IND
+18,Iran,,Surveillance,TROCA,IRN
+19,Israel,,Surveillance,IBDSP,ISR
+20,Italy,,Surveillance,BDRCAM,ITA
+21,Italy,,Surveillance,IMER,ITA
+22,Italy Veneto,Veneto,Surveillance,,ITA
+23,Italy Tuscany,Tuscany,Surveillance,RTDC,ITA
+24,Italy Lombardy,Lombardy,Surveillance,RMCL,ITA
+25,Japan,,Surveillance,JAOG,JPN
+26,Malta,,Surveillance,MCAR,MLT
+27,Mexico,,Surveillance,RYVEMCE,MEX
+28,Mexico ,Nuevo León,Surveillance,BDPSP,MEX
+29,Mexico,Nuevo León,Surveillance,ReDeConHU,MEX
+30,New Zealand,,Surveillance,,NZL
+31,Netherlands,,Surveillance,,NLD
+32,Norway,,Surveillance,MBRN,NOR
+33,Saudi Arabia,,Surveillance,MSD-BDR,SAU
+34,Slovak Republic,,Surveillance,,
+35,South America,,Surveillance,ECLAMC,
+36,Spain,,Surveillance,ECEMC,ESP
+37,Sweden,,Surveillance,,SWE
+38,Ukraine,,Surveillance,OMNI-Net,UKR
+39,United Kingdom,,Surveillance,NCARDRS,GBR
+40,United Kingdom,Wales,Surveillance,CARIS,GBR
+41,United States,Arkansas,Surveillance,ARHMS,USA
+42,United States,Atlanta,Surveillance,MACDP,USA
+43,United States,Iowa,Surveillance,IRCID,USA
+44,United States,Texas,Surveillance,BDES,USA
+45,United States,Utah,Surveillance,UBDN,USA

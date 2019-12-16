@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset=utf-8 />
+  <title>Identifying new opportunities for birth defects surveillance</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #d3d3d3;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      color: #3d3d3d;
+    }
+
+    section {
+      width: 80%;
+      margin: 10px auto;
+    }
+
+    h1 {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      font-size: 2.5em;
+      /* The em unit. 2.5x the current size */
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      color: gray;
+      font-size: 1.25em;
+      letter-spacing: .04em;
+    }
+
+    p {
+      font-size: 1em;
+      line-height: 1.5em;
+    }
+
+    a {
+      color: #005daa;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin: 10px 0
+    }
+
+    #map {
+      width: 100%;
+      margin: 0px auto;
+
+    }
+
+    .max-image-width {
+      width: 100%;
+    }
+
+
+    .linkbox {
+      margin: 3px 0 20px 0;
+      display: block;
+      font-weight: 300;
+    }
+
+    hr {
+      border: 0px;
+      border-bottom: 1px solid #3d3d3d;
+      padding-top: 20px;
+    }
+
+    /* Use float property to make two-column layout. */
+
+    .first-column {
+      float: left;
+      width: 48%;
+      padding-right: 20px;
+    }
+
+    .column {
+      float: left;
+      width: 48%;
+    }
+
+    /* Clear floats after the columns */
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* When browser is 800px wide or less */
+
+    @media screen and (max-width: 800px) {
+      .first-column,
+      .column {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Add map to top of page and make it stretch to fill browser window. -->
+  <div class="row">
+    <div class="column">
+      <img src="maps/BirthTotals_v01_1200px.png" style="width:100%" class="max-image-width">
+    </div>
+    <div class="column">
+      <img src="maps/SurveillanceMap_v01_1200px.png" style="width:100%" class="max-image-width">
+    </div>
+  </div>
+
+  <!-- Create a two column layout for map information. -->
+  <section>
+    <a href='maps/BirthTotals_v01_8000px.png' class="linkbox">Higher resolution version available of the total births map</a>
+    <a href='maps/SurveillanceMap_v01_8000px.png' class="linkbox">Higher resolution version available of the birth defects surveillance locations</a>
+
+    <h1>Identifying new opportunities for birth defects surveillance</h1>
+    <h2>Authored by: jfobrycki @ New Maps Plus</h2>
+
+    <div class="row">
+<p>Map created using QGIS 3.10 on Windows 10 using a 1:120000000 scale and the World Robinson projection (EPSG 54030)</p>
+    <h3>Map details</h3>
+    <b>Total births</b>
+
+<li>The United Nations maintains projections of global birth rates by countries and by region. This resource is available from this <a href="https://population.un.org/wpp/Download/Standard/CSV/">downloads page</a>. The specific dataset of interest is <a href="https://population.un.org/wpp/Download/Files/1_Indicators%20(Standard)/CSV_FILES/WPP2019_Fertility_by_Age.csv">Fertility Indicators</a>. </li>
+
+<b>Birth defects surveillance</b>
+<li>
+<a href="http://www.icbsr.org" target="_blank">The International Clearinghouse for Birth Defects Surveillance and Research</a>is one place where multiple entities combine data about birth defects. There are other places where this information is combined, for example <a href="https://eu-rd-platform.jrc.ec.europa.eu/eurocat" target="new">EUROCAT</a>. 
+For this map, the ICBDSR provides a <a href=" http://www.icbdsr.org/programme-description/" target="new">list of places where surveillance programs occur</a>. This list can be copied and pasted into a text document or excel file.
+</li>  
+
+<b>Country maps</b>
+<li>
+A shapefile that contains countries of the world is available from Natural Earth, specifically the <a href="https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-0-countries-2/">Admin 0 – Countries option without boundary lakes</a>. A direct download of this file is available <a href="https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/50m/cultural/ne_50m_admin_0_countries_lakes.zip">here</a>.
+
+<h3>Methods</h3>
+<li>For more information about the methods used to create these maps, please see the methods described on <a href="https://github.com/jfobrycki/birthdefectdata">GitHub</a>.</li>
+    <p>
+      University of Kentucky New Maps Plus, December 2019
+    <p>
+    <hr>
+    <ul>
+      <li>See my projects on GitHub: <a href="https://github.com/jfobrycki">John F. Obrycki</a></li>
+			<li>Visit my <a href='https://www.linkedin.com/in/john-f-obrycki-1a3b032b'>LinkedIn page</a>.</li>
+    </ul>
+  </section>
+
+</body>
+</html>
