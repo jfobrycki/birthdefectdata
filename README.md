@@ -19,7 +19,7 @@
 
 The goal of this map is to identify areas that have birth defect surveillance programs and other areas where programs could be started by comparing locations with surveillance programs to total birth numbers by country. These surveillance programs are important for collecting and combining data about the types of birth defects that are occurring across regions and around the world. This information can then be used to identify which birth defects are most common and if there are temporal or geographic trends in the birth defects distribution. A further discussion about the limitations of this current map and avenues for next steps are discussed in the [Future Efforts] (#future-efforts) section.
 
-The <a href="https://jfobrycki.github.io/birthdefectdata/" target="new">final submission< for this project is a static map page</a>. 
+The <a href="https://jfobrycki.github.io/birthdefectdata/" target="new">final submission for this project is a static map page</a>. 
 
 
 ## Data sources
